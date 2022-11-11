@@ -22,11 +22,20 @@
         color: white;
         left: 10%;
     }
+    #p{
+        left: 20%;
+    }
+    input{
+        left: 20%;
+    }
+
 </style>
 <body style="background-color: black;">
     <button onclick="step()">render</button>
     <p id="generation">Поколение: 0 </p>
+    <p id="p">белоусов<input type="checkbox" id="check" onchange="modeStepChecked()"></p>
 </body>
 <script src="gpu-browser.min.js"></script>
 <script src="main.js"></script>
+<script src="BivariateClass.js"></script>
 </html>
